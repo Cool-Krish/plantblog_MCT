@@ -1,0 +1,184 @@
+
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    
+   
+  }
+  
+  .logo {
+    display: inline-block;
+    background: none;
+    height: 40px;
+    position: relative;
+    align-items:center;
+    margin-left: 28%;
+    border-radius: 25px;
+    background: none;
+  }
+  
+  #abc{
+    width:100%;
+    height:100vh;
+    background-image: url(https://img.freepik.com/free-vector/golden-square-monstera-leaves-frame-design-resource_53876-113081.jpg?w=740&t=st=1667920675~exp=1667921275~hmac=0473913111ac2bd7af96a76c2a14d7b1b7e4f4d532bfccf2cf061a09331a1890);
+    background-size: cover;
+    
+  }
+  .menu-bar {
+    
+    height: 80px;
+    width: 100%;
+    display: flex;
+    margin-left: 23%;
+    background-size: cover;
+    align-items: center;
+    padding: 0 5%;
+    z-index: 999;
+    position: fixed;
+    color: aliceblue;
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu-bar ul li {
+    padding: 10px 30px;
+    
+  
+    position: relative;
+  }
+  
+  .menu-bar ul li a {
+    font-size: 20px;
+    color: var(--color-white);
+    text-decoration: none;
+  
+    transition: all 0.3s;
+  }
+  
+  .menu-bar ul li a:hover {
+    color: var(--color-primary);
+  }
+  
+  .fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+  }
+  
+  
+  .dropdown-menu {
+    display: none;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color-black);
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: 10px;
+    background-color: rgb(10, 76, 22);
+    border-radius: 10px;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu ul li {
+    
+    display:flex;
+    width: 150px;
+    padding: 10px;
+    color: rgb(136, 240, 155);
+    border-radius: 10px;
+  }
+  
+  .dropdown-menu-1 {
+    display: none;
+  }
+  
+ 
+  #checkout {
+    border-radius: 10px;
+    padding: 8px;
+    background-color:rgb(92, 243, 137);
+  }
+  .hero {
+    border-radius: 25px;
+    margin-top: -35%;
+   z-index: 9;
+    margin-left: 10%;
+    align-self: center;
+    height: 65%;
+    width: 50%;
+    background-size: cover;
+    padding: 30px;
+  }
+ h1{
+    color: rgb(148, 247, 181);
+    font-size: 50px;
+ }
+ h2{
+    color: rgb(113, 244, 118);
+    font-size: 50px;
+ }
+ .btn {
+    border: none;
+  color: white;
+  background-color: #54e856b4;
+  padding: 15px 50px;
+  
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  
+  }
+  
+  .krishna{
+    height: 40%;
+    width: 45%;
+    position: relative;
+    margin-left: 45%;
+    margin-top:-30%;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    flex-wrap: wrap;
+    gap: 45px;
+  }
+  .inner {
+    color: aliceblue;
+    border-radius: 25px;
+    height: 100%;
+    width: 45%;
+    padding: 20px;
+    font-size: 25px;
+
+
+  }
+  #first{
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1535265639156-311addc29da2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+  }
+  #second {
+    background-size: cover;
+    background-image: url(https://plus.unsplash.com/premium_photo-1661757340808-4bda56bbf890?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  }
+  
+  .krishna p {
+    margin-top: 70%;
+    font-size: 20px;
+  }
